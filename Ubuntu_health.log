@@ -1,0 +1,23 @@
+
+============================== Ubuntu Server Health Report Summary - 2025-04-13 19:01:05==============================
+[Ubuntu Server Load]
+ 19:01:05 up 19:26,  2 users,  load average: 0.14, 0.09, 0.02
+[Ubuntu Memory Usage]
+               total        used        free      shared  buff/cache   available
+Mem:           7.6Gi       338Mi       6.4Gi       1.0Mi       830Mi       7.0Gi
+Swap:          2.1Gi          0B       2.1Gi
+[Ubuntu Disk Usage]
+Filesystem                         Size  Used Avail Use% Mounted on
+tmpfs                              775M  1.9M  773M   1% /run
+/dev/mapper/ubuntu--vg-ubuntu--lv   12G  8.0G  2.8G  75% /
+tmpfs                              3.8G     0  3.8G   0% /dev/shm
+tmpfs                              5.0M     0  5.0M   0% /run/lock
+/dev/sda2                          2.0G  245M  1.6G  14% /boot
+tmpfs                              775M  4.0K  775M   1% /run/user/1000
+[Ubuntu Top 5 runnning resources ]
+    PID CMD                         %CPU %MEM
+  42257 /usr/lib/snapd/snapd         1.8  0.3
+  43085 [kworker/2:0-events]         0.1  0.0
+      1 /sbin/init                   0.0  0.1
+      2 [kthreadd]                   0.0  0.0
+      3 [rcu_gp]                     0.0  0.0
